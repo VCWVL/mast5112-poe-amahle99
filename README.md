@@ -78,3 +78,40 @@ Running the Application
     -   Android Emulator : Press `a` in the terminal or click "Run on Android emulator" in DevTools.
 
 The application should now be running on your selected device or emulator.
+
+Changelog:
+Core Application Structure:
+
+Implemented a multi-screen application structure using React state for navigation.
+Defined screens for: Splash (splash), Authentication (auth), Guest Menu (guest), Shopping Cart (cart), and Menu Management (manage).
+User Roles & Authentication:
+
+Established a basic role system for "chef" and "user".
+The splash screen provides entry points to either log in or browse as a guest.
+The authentication screen contains a "Login as Chef" button to proceed.
+Guest Experience (guest screen):
+
+Guests can view the full menu or filter items by category: "All", "Brunch", "Lunch", and "Dinner".
+A summary card displays the calculated average price for items in the Brunch, Lunch, and Dinner categories.
+Includes a "Login" button for guests who wish to authenticate.
+Shopping Cart (cart screen):
+
+Functionality to add items to a shopping cart. The cart state tracks items and their quantities.
+Users can remove items from the cart one by one.
+The cart screen displays all added items, their quantities, and the total price.
+A "Back to Menu" button allows navigation from the cart.
+Chef Experience (manage screen):
+
+A dedicated screen for chefs to manage the menu.
+CRUD Functionality:
+Create: Chefs can add new menu items using a modal form, specifying name, price, description, and category.
+Read: The screen displays a complete list of all menu items.
+Update: Existing items can be edited through the same modal interface.
+Delete: Items can be removed from the menu.
+Session Management: A logout button is provided, which resets the user's role and returns to the authentication screen.
+REFRENCES : 
+unsplach.com.za
+feedback from part 1 and 2
+gemini 
+blackbox 
+chrome
