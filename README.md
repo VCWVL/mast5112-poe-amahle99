@@ -31,53 +31,8 @@ The application features a dynamic menu display, a shopping cart system, and a m
 -   **TypeScript**: For type-safe JavaScript development.
 -   **`@expo/vector-icons`**: For easily using a variety of icon sets.
 
-## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
--   **Node.js**: Download & Install Node.js (LTS version recommended).
--   **npm** or **Yarn**: npm comes with Node.js. If you prefer Yarn, install Yarn.
--   **Expo CLI**: Install globally using npm or yarn:
-    ```bash
-    npm install -g expo-cli
-    # OR
-    yarn global add expo-cli
-    ```
-
- Installation
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/PrivateChefApp.git
-    cd PrivateChefApp
-    ```
-    *(Note: Replace `https://github.com/your-username/PrivateChefApp.git` with the actual repository URL if it's hosted.)*
-
-2.  Install dependencies
-    ```bash
-    npm install
-    OR
-    yarn install
-    ```
-
-Running the Application
-
-1.  Start the Expo development server
-    ```bash
-    expo start
-    ```
-    This will open a new tab in your web browser with the Expo DevTools.
-
-2.  Run on a device or emulator
-    -   Expo Go App: Scan the QR code displayed in the terminal or Expo DevTools with the Expo Go app on your physical device (iOS or Android).
-    -   iOS Simulator: Press `i` in the terminal or click "Run on iOS simulator" in DevTools.
-    -   Android Emulator : Press `a` in the terminal or click "Run on Android emulator" in DevTools.
-
-The application should now be running on your selected device or emulator.
 
 Changelog:
 Core Application Structure:
